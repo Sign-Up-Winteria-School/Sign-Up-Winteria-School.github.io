@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="text_a" type="text;" />
+<p id="answer"></p>
+<button onclick="myFunction()">Check</button>
+
+<script>
+function myFunction()
+{
+var a=document.getElementById("text_a").value;
+
+if (a=="hello")
+  {
+document.getElementById("answer").innerHTML="Correct!";
+  }
+else
+  {
+document.getElementById("answer").innerHTML="Oops!";
+  }
+}
+</script>
+</body>
+</html>
